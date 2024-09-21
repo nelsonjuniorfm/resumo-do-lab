@@ -29,6 +29,16 @@ via protocolo SMG(Server Message Block)
 - Azure Queue Storage, serviço para gerenciamento de mensagens entre componente de sistemas distribuidos.
 Importante utilizar o Azure Monitor para aconpanhar o desempenho do armazenamento.
 
+### Segurança e identidade
+Azure Active Directory (Azure AD) é o serviço de identidade da Microsoft, utilizado para gerenciar usuários, grupos e permissões de acesso em todos os serviços da Azure.
+A Autenticação Multifator (MFA) adiciona uma camada extra de segurança, exigindo dois ou mais métodos de autenticação.
+O Controle de Acesso Baseado em Funções (RBAC) permite que você controle quem tem acesso a quais recursos, atribuindo permissões específicas a usuários ou grupos.
+O Azure Policy ajuda a garantir que todos os recursos na sua assinatura estejam em conformidade com as políticas de segurança e governança da organização.
+O Azure AD Identity Protection automatiza a detecção de identidades comprometidas e responde a riscos de segurança.
+O Azure Security Center oferece uma visão abrangente da segurança dos seus recursos, com recomendações para fortalecer a postura de segurança.
+Firewalls e Grupos de Segurança de Rede (NSG) ajudam a proteger suas redes e VMs contra acessos não autorizados.
+O Azure Key Vault permite armazenar e gerenciar segredos, certificados e chaves criptográficas de forma segura
+
 ### Calculadora do TCO (Custo total de Propriedade)
 Possibilita simular os custo total para implantação de uma ambiente,
 selecionando servidores, banco de dados, armazenamento e rede.
